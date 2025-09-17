@@ -1,66 +1,49 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
- 
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="icon" href="https://glitch.com/favicon.ico" />
- 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-<title>CTS-GT2 website</title>
- 
-    <!-- The website stylesheet -->
-<link rel="stylesheet" href="/style.css" />
- 
-    <!-- The website JavaScript file -->
-<script src="/script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Contact Center Solutions</title>
+ <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-<div class="wrapper">
-<div class="content" role="main">
-<h1 class="title">CTS-GT2 website</h1>
-<img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-<div class="instructions">
-<h2>Using this project</h2>
-<p>
-            This is the Glitch <strong>CTS-GT2 website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and
-            open the
-<span class="fileopener" data-file="TODO.md" data-line="0"
->TODO</span
->
-            for next steps!
-</p>
-<!--  🚧 TODO: ADD BUTTON HERE -->
- 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-<!-- Check out the function in script.js to see how it works -->
-</div>
-</div>
-</div>
-<div
-      id="divicw"
-      data-bind="C8C15383-E5D5-47A7-A106-833E645F47DB"
-      data-org=""
-></div>
-<div id="divicw" data-bind="C8C15383-E5D5-47A7-A106-833E645F47DB" data-org=""></div><script>var i={t:function(t){var e="https://media.imi.chat/widget/js/imichatinit.js";try{var o=new XMLHttpRequest;o.onreadystatechange=function(){if(this.readyState==4){var t=document.getElementById("divicw");if(this.status==0){i.o(t);return}var e=document.createElement("script");e.innerHTML=this.responseText;t.parentNode.insertBefore(e,t.nextSibling)}};o.open("GET",e,true);o.send()}catch(s){console.error(s)}},o:function(t){t.insertAdjacentHTML("afterend",'<iframe id="tls_al_frm" frameborder="0" style="overflow: hidden;height: 208px;width: 394px;position: fixed;display: block;right: 48px;bottom: 12px;z-index: 99999; display:none;"></iframe>');var e=document.getElementById("tls_al_frm");var o=e.contentWindow||(e.contentDocument.document||e.contentDocument);o.document.open();o.document.write('<!doctype html><html><head><meta charset="utf-8"><title>Untitled Document</title><style>body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color: #99a0b0;font-size: 14px;}.popover__content{background-color: #fbfbfe; padding: 1.5rem; border-radius: 5px; width: 300px; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);position: relative;}.popover__message{font-weight: 600;color:#56627c;font-size: 16px;}.pull-left{float:left;}.clearfix{clear: both;}.hdr-txt{width: 218px; margin-top: 3px;}.para-txt a{text-decoration: none;color: #005cde;}.close-btn{position: absolute;right:15px;top:15px;}.close-btn a{text-decoration: none;font-weight: 400; color: #56627c; font-size: 16px;}</style></head><body><div class="popover__content"><div class="close-btn"><a href="#" onclick="closeTLSAlert();">X</a></div><div class="popover__message"><div class="pull-left hdr-txt">This browser version is not supported on LiveChat.</div></div><div class="clearfix"></div><p class="para-txt">Please update your browser to the latest version and re-open the website to access the widget. </p></div><script>function closeTLSAlert(){window.parent.postMessage({key: "close_tls_alert",value: "close_tls_alert",action: "close_tls_alert"}, "*");}<\/script></body></html>');o.document.close();e.style.display="block";window.addEventListener("message",function(t){if(t.data.action=="close_tls_alert"){i.s()}})},s:function(){var t=document.getElementById("tls_al_frm");t.remove()}};i.t(function(t){});</script>
-</body>
+  <header>
+    <h1>Cloud Contact Center Solutions</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Your Contact Center, Revolutionized</h2>
+    <p>Deliver seamless customer experiences with our secure, scalable, and AI-powered cloud contact center platform.</p>
+  </section>
+  <section id="features" class="features">
+    <div class="feature">
+      <h3>Voice, Chat & Video</h3>
+      <p>Connect with customers on their favorite channels and devices—anytime, anywhere.</p>
+    </div>
+    <div class="feature">
+      <h3>AI & Automation</h3>
+      <p>Reduce wait times and boost efficiency with intelligent virtual agents and real-time analytics.</p>
+    </div>
+    <div class="feature">
+      <h3>Secure & Compliant</h3>
+      <p>Protect consumer data with best-in-class encryption, GDPR compliance, and robust authentication.</p>
+    </div>
+  </section>
+  <section id="about" style="padding:32px 24px;text-align:center;">
+    <h2>About Us</h2>
+    <p>We deliver next-generation contact center solutions built for modern businesses—trusted by enterprises, government, and fast-growing startups.</p>
+  </section>
+  <section id="contact" style="padding:32px 24px;text-align:center;">
+    <h2>Contact</h2>
+    <p>Email: info@cloudcontactcenter.com<br>Phone: 1-800-123-4567</p>
+  </section>
+  <footer>
+    &copy; 2025 Cloud Contact Center Solutions
+  </footer>
+  <div id="divicw" data-bind="C8C15383-E5D5-47A7-A106-833E645F47DB" data-org=""></div><script>var i={t:function(t){var e="https://media.imi.chat/widget/js/imichatinit.js";try{var o=new XMLHttpRequest;o.onreadystatechange=function(){if(this.readyState==4){var t=document.getElementById("divicw");if(this.status==0){i.o(t);return}var e=document.createElement("script");e.innerHTML=this.responseText;t.parentNode.insertBefore(e,t.nextSibling)}};o.open("GET",e,true);o.send()}catch(s){console.error(s)}},o:function(t){t.insertAdjacentHTML("afterend",'<iframe id="tls_al_frm" frameborder="0" style="overflow: hidden;height: 208px;width: 394px;position: fixed;display: block;right: 48px;bottom: 12px;z-index: 99999; display:none;"></iframe>');var e=document.getElementById("tls_al_frm");var o=e.contentWindow||(e.contentDocument.document||e.contentDocument);o.document.open();o.document.write('<!doctype html><html><head><meta charset="utf-8"><title>Untitled Document</title><style>body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color: #99a0b0;font-size: 14px;}.popover__content{background-color: #fbfbfe; padding: 1.5rem; border-radius: 5px; width: 300px; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);position: relative;}.popover__message{font-weight: 600;color:#56627c;font-size: 16px;}.pull-left{float:left;}.clearfix{clear: both;}.hdr-txt{width: 218px; margin-top: 3px;}.para-txt a{text-decoration: none;color: #005cde;}.close-btn{position: absolute;right:15px;top:15px;}.close-btn a{text-decoration: none;font-weight: 400; color: #56627c; font-size: 16px;}</style></head><body><div class="popover__content"><div class="close-btn"><a href="#" onclick="closeTLSAlert();">X</a></div><div class="popover__message"><div class="pull-left hdr-txt">This browser version is not supported on LiveChat.</div></div><div class="clearfix"></div><p class="para-txt">Please update your browser to the latest version and re-open the website to access the widget. </p></div><script>function closeTLSAlert(){window.parent.postMessage({key: "close_tls_alert",value: "close_tls_alert",action: "close_tls_alert"}, "*");}<\/script></body></html>');o.document.close();e.style.display="block";window.addEventListener("message",function(t){if(t.data.action=="close_tls_alert"){i.s()}})},s:function(){var t=document.getElementById("tls_al_frm");t.remove()}};i.t(function(t){});</script>
+  </body>
 </html>
